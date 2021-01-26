@@ -1,5 +1,5 @@
 body {
-	font-family: "Roboto";
+	font-family: 'Open Sans Condensed';
 	padding: 20px 80px;
 }
 
@@ -8,6 +8,11 @@ a {
 	color: black;
 }
 
+* {
+	box-sizing: border-box;
+}
+
 @import "./homepage-styles";
 @import "./collectionPreviev-styles";
 @import "./navigation-styles";
+@import "./signIn-and-SignUp-styles";
